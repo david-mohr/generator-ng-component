@@ -1,6 +1,12 @@
 'use strict';
 
+(function() {
+
+class BrokerController {
+  constructor() {
+  }
+}
+
 angular.module('<%= scriptAppName %>')
-  .controller('<%= classedName %>Ctrl', function ($scope) {
-    $scope.message = 'Hello';
-  });
+  .controller('<%= classedName %>Controller', <%= classedName %>Controller);
+})();
