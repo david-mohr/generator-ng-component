@@ -2,7 +2,7 @@
 
 (function() {
 
-class BrokerController {
+class <%= classedName %>Controller {
   constructor() {
   }
 }

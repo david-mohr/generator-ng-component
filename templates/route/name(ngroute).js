@@ -5,7 +5,7 @@ angular.module('<%= scriptAppName %>')
     $routeProvider
       .when('<%= route %>', {
         templateUrl: '<%= htmlUrl %>',
-        controller: '<%= classedName %>Controller'
+        controller: '<%= classedName %>Controller',
         controllerAs: 'vm'
       });
   });
