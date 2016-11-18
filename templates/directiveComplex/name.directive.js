@@ -1,11 +1,11 @@
 'use strict';
 
 angular.module('<%= scriptAppName %>')
-  .directive('<%= cameledName %>', function () {
+  .directive('<%= cameledName %>', function() {
     return {
       templateUrl: '<%= htmlUrl %>',
       restrict: 'EA',
-      link: function (scope, element, attrs) {
+      link: function(scope, element, attrs) {
       }
     };
   });
